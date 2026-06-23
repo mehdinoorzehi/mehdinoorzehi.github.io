@@ -320,6 +320,19 @@ section {
   animation: fadeUp 0.6s 0.2s var(--ease-out) both;
 }
 
+.hero-persian {
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  color: var(--flutter-sky);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  animation: fadeUp 0.6s 0.15s var(--ease-out) both;
+}
+
+.hero-subtitle strong {
+  color: var(--flutter-text);
+  font-weight: 600;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -957,6 +970,81 @@ section {
 .fab svg {
   width: 24px;
   height: 24px;
+}
+
+footer a {
+  color: var(--flutter-teal);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+footer a:hover {
+  color: var(--flutter-sky);
+}
+
+/* ── FAQ ── */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 800px;
+}
+
+.faq-item {
+  background: var(--flutter-card);
+  border: 1px solid var(--flutter-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.faq-item summary {
+  padding: 1.25rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.2s;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  font-size: 1.25rem;
+  color: var(--flutter-teal);
+  transition: transform 0.3s;
+}
+
+.faq-item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.faq-item summary:hover {
+  background: rgba(19, 185, 253, 0.05);
+}
+
+.faq-answer {
+  padding: 0 1.5rem 1.25rem;
+}
+
+.faq-answer p {
+  color: var(--flutter-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.faq-answer a {
+  color: var(--flutter-teal);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.faq-answer a:hover {
+  color: var(--flutter-sky);
 }
 
 /* ── Footer ── */

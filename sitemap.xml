@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://mehdinoorzehi.github.io/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mehdinoorzehi.github.io/assets/img/profile.jpg</image:loc>
+      <image:title>Mehdi Noorzehi — مهدی نورزهی Flutter Developer</image:title>
+      <image:caption>Official profile photo of Mehdi Noorzehi, Flutter mobile developer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mehdinoorzehi.github.io/assets/img/projects/20240323_101709_0002.png</image:loc>
+      <image:title>Social IV by Mehdi Noorzehi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://mehdinoorzehi.github.io/assets/img/projects/1_20240323_094523_0000.png</image:loc>
+      <image:title>Easy Todo by Mehdi Noorzehi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://mehdinoorzehi.github.io/assets/img/projects/1r.png</image:loc>
+      <image:title>Radin Chat UI by Mehdi Noorzehi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://mehdinoorzehi.github.io/assets/img/projects/1.png</image:loc>
+      <image:title>Blog Club by Mehdi Noorzehi</image:title>
+    </image:image>
+  </url>
+</urlset>
